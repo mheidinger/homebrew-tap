@@ -15,4 +15,7 @@ cask "preek" do
   depends_on macos: ">= :sonoma"
 
   app "PReek.app"
+
+  uninstall quit:       "de.max-heidinger.PReek",
+            login_item: "PReek"
 end
