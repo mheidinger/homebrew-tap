@@ -18,4 +18,9 @@ cask "preek" do
 
   uninstall quit:       "de.max-heidinger.PReek",
             login_item: "PReek"
+
+  zap trash: [
+      "~/Library/Application Scripts/de.max-heidinger.PReek",
+      "~/Library/Containers/de.max-heidinger.PReek",
+  ]
 end
