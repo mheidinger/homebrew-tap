@@ -20,7 +20,7 @@ cask "preek" do
             login_item: "PReek"
 
   zap trash: [
-      "~/Library/Application Scripts/de.max-heidinger.PReek",
-      "~/Library/Containers/de.max-heidinger.PReek",
+    "~/Library/Application Scripts/de.max-heidinger.PReek",
+    "~/Library/Containers/de.max-heidinger.PReek",
   ]
 end
