@@ -1,6 +1,6 @@
 cask "preek" do
-  version "0.5.1"
-  sha256 "82cde6cfb1c4d3647a55999a4acdd8d9c711ebeb3bc10b014736c3cf7866b479"
+  version "0.5.2"
+  sha256 "6f4f6dc6551a52cd29a943bc3751b9bb1f192cdb496da8c4e0aa3ed72844a982"
 
   url "https://github.com/mheidinger/PReek/releases/download/v#{version}/PReek-#{version}.dmg"
   name "PReek"
