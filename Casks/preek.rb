@@ -1,6 +1,6 @@
 cask "preek" do
-  version "0.5.6"
-  sha256 "6240b29de3f56a2c3f24bd154eb347fd685ee6737ed8a98fae055859d4334a91"
+  version "0.6.0"
+  sha256 "6a6f562fb47fc7fd034d598320dca9d4600612559e68e1a003c68fac697dd1d6"
 
   url "https://github.com/mheidinger/PReek/releases/download/v#{version}/PReek-#{version}.dmg"
   name "PReek"
@@ -12,7 +12,7 @@ cask "preek" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "PReek.app"
 
